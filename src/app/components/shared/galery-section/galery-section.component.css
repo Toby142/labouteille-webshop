@@ -1,0 +1,31 @@
+.galery-container {
+    height: 100vh;
+    background-color: rgb(112, 96, 10);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+
+    background-image: url('../../../../assets/dev-images/champagne-bottle.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-container {
+    color: white;
+}
+
+.text-container h1 {
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,37 @@
+.category-container {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    padding: 75px 30px;
+    gap: 20px;
+}
+
+.category-container::-webkit-scrollbar {
+    display: none;
+}
+
+.category-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.category-card img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.category-card_title {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* break for desktop */
+@media (min-width: 1024px) {
+    .category-container {
+        padding: 75px 60px;
+        gap: 40px;
+    }
+}

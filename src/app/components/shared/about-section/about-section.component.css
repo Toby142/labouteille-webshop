@@ -1,0 +1,92 @@
+.about-section-container {
+    padding: 75px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about-title_small {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.about-title_img {
+    border: 1px solid black;
+    height: 80vw;
+    width: 80vw;
+    margin-bottom: 25px;
+}
+
+.about-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.title-link {
+    color: black;
+    margin: 50px 0;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.artist-img {
+    width: 50%;
+}
+
+.artist-about {
+    width: 50%;
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.artist-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.artist-img img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.instagram-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.instagram-title_small {
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.instagram-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.posts-container {
+    display: flex;  
+    flex-direction: column;
+    overflow-x: scroll;
+    
+}

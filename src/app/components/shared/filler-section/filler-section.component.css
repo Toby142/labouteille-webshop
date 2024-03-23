@@ -1,0 +1,43 @@
+.filler-container {
+    padding: 75px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.filler-title_small {
+    font-size: 15px;
+    margin-bottom: 5px;
+    /* light font */
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.filler-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    /* bold font */
+    font-weight: lighter;
+    color: black;
+}
+
+.filler-content {
+    font-size: 15px;
+    color: black;
+}
+
+.filler-link {
+    color: rgba(0, 0, 0, 0.75);
+    text-decoration: underline;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.filler-container img {
+    border: 1px solid black;
+    width: 60vw;
+    height: 60vw;
+    margin-top: 40px;
+}
