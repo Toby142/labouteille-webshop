@@ -12,6 +12,10 @@ import { BigCategorySectionComponent } from './components/shared/big-category-se
 import { FillerSectionComponent } from './components/shared/filler-section/filler-section.component';
 import { GalerySectionComponent } from './components/shared/galery-section/galery-section.component';
 import { AboutSectionComponent } from './components/shared/about-section/about-section.component';
+import { ContactSectionComponent } from './components/shared/contact-section/contact-section.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -23,12 +27,16 @@ import { AboutSectionComponent } from './components/shared/about-section/about-s
     BigCategorySectionComponent,
     FillerSectionComponent,
     GalerySectionComponent,
-    AboutSectionComponent
+    AboutSectionComponent,
+    ContactSectionComponent,
+    FooterComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

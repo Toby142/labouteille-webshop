@@ -1,0 +1,19 @@
+<nav [ngClass]="{ 'scrolled': isScrolled, 'atTop': isAtTop, 'hidden': !visible }">
+    <div class="navbar-base">
+        <div class="nav-title" routerLink="/home">La Bouteille</div>
+        <div class="nav-menu-link" (click)="toggleMenu()">MENU</div>
+    </div>
+
+    <div class="navbar-links" [ngClass]="{ 'expanded': isMenuOpen }">
+        <div class="link">
+            <img src="../../../../assets/dev-images/vodka-bottle.png" alt="">
+            <a routerLink="/home" routerLinkActive="active">Home</a>
+        </div>
+        <div class="link">
+            <img src="../../../../assets/dev-images/vodka-bottle.png" alt="">
+            <a routerLink="/about" routerLinkActive="active">About</a>
+        </div>
+        <!-- Add more links as needed -->
+    </div>
+
+</nav>

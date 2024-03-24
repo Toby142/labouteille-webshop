@@ -6,6 +6,21 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #242A1F;
+    /* background-image: url("../../../../assets/dev-images/vodka-bottle.png"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #A38A50;
+    width: 100%;
 }
 
+.header-text {
+    width: 100%;
+    overflow: hidden;
+}
+
+.header-text img {
+    width: 100%;
+    /* zoom in a little */
+    transform: scale(1.3);
+}

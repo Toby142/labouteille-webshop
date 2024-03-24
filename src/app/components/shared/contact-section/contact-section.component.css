@@ -1,0 +1,24 @@
+.contact-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #444900;
+    color: white;
+    padding: 50px;
+}
+
+.contact-title {
+    margin-bottom: 20px;
+}
+
+.contact-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: black;
+    font-size: large;
+    cursor: progress;
+}

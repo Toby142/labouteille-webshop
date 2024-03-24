@@ -5,25 +5,17 @@
     background-size: cover;
     height: 100vh;
     overflow: hidden;
-    background-image: url("../../../../assets/dev-images/champagne-bottle.webp");
+    background-color: rgba(51, 34, 1, 0.601);
+    background-image: url("../../../../assets/dev-images/animals.png");
+    background-blend-mode: overlay;
 }
 
-.big-category-container img {
-    height: 100%;
-    object-fit: cover;
-    /* position: absolute; */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    /* filter: blur(5px); */
-}
 
 .text-container {
     display: flex;
     color: white;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     text-align: center;
     align-items: center;
     height: 100%;
@@ -39,7 +31,3 @@
     text-decoration: underline;
     font-size: 12px;
 }
-
-/* .parallax {
-    background-attachment: fixed;
-} */
