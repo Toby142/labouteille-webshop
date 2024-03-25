@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Host, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-category-page',
@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./category-page.component.css']
 })
 export class CategoryPageComponent {
+  category: string | undefined;
+  parallaxOffset: number = 0;
 
   constructor() { }
-
-  category: string | undefined;
 
   ngOnInit() {
     if (window.location.pathname.split('/').length < 3) {
@@ -19,5 +19,11 @@ export class CategoryPageComponent {
       console.log(route);
       this.category = route;
     }
+  }
+
+  @HostListener('window:scroll', ['$event'])
+  onWindowScroll(event: Event) {
+    // Adjust the parallax offset based on scroll position
+    this.parallaxOffset = window.scrollY * 0.3; // Adjust the multiplier for desired effect
   }
 }

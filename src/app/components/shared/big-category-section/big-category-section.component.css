@@ -1,14 +1,30 @@
+
 .big-category-container {
-    /* background-attachment: fixed; */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 100vh;
     overflow: hidden;
-    background-color: rgba(51, 34, 1, 0.601);
-    background-image: url("../../../../assets/dev-images/animals.png");
-    background-blend-mode: overlay;
+    position: relative;
 }
+
+.parallax {
+    height: 100%;
+    background-image: url("../../../../assets/dev-images/animals.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(45, 43, 36, 0.564);
+    background-blend-mode: overlay;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
 
 
 .text-container {
