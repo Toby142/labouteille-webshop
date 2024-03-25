@@ -1,0 +1,62 @@
+header {
+    height: 100vh;
+    background-image: url("../../../../assets/dev-images/gold-bottle.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(45, 43, 36, 0.564);
+    background-blend-mode: overlay;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.products-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+.product-card {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.product-card img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.product-card h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.product-card p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.605);
+}
+
+.product-card button {
+    padding: 5px 20px;
+    border: 1px solid black;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+}
