@@ -42,3 +42,19 @@
     margin-top: 40px;
     object-fit: cover;
 }
+
+/* break for desktop */
+@media (min-width: 1024px) {
+    .filler-container {
+        padding: 75px 60px;
+    }
+
+    .filler-container img {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .filler-content {
+        max-width: 50vw;
+    }
+}

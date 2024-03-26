@@ -1,0 +1,87 @@
+header {
+    height: 100vh;
+    overflow: hidden; /* Hide overflow to prevent scrollbars */
+    position: relative;
+}
+
+.parallax {
+    height: 100%;
+    background-image: url("../../../../assets/dev-images/champagne-field.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+header h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.contact-section {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+button.btn-primary {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+button.btn-primary:hover {
+    background-color: rgb(61, 52, 1);
+}
+
+/* break for desktop */
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 40px;
+    }
+
+    .contact-section {
+        width: 50vw;
+        height: 90vh;
+    }
+
+    /* align it in the center */
+    .contact-section {
+        margin: auto;
+    }
+}

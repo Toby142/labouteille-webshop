@@ -1,0 +1,92 @@
+header {
+    height: 100vh;
+    overflow: hidden; /* Hide overflow to prevent scrollbars */
+    position: relative;
+}
+
+.parallax {
+    height: 100%;
+    background-image: url("../../../../assets/dev-images/champagne-storeage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+header h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.products-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    padding-bottom: 0;
+    gap: 20px;
+}
+
+.product-card {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.product-card img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.product-card h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.product-card p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.605);
+}
+
+.product-card button {
+    padding: 5px 20px;
+    border: 1px solid black;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.gallery-about {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.product-link {
+    color: black;
+    font-size: small;
+}
+
+/* break for desktop */
+@media (min-width: 1024px) {
+
+    .product-card img {
+        width: 25vw;
+    }    
+}

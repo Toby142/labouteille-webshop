@@ -91,3 +91,41 @@
     overflow-x: scroll;
     
 }
+
+/* break for desktop */
+@media (min-width: 1024px) {
+    .about-text {
+        max-width: 50vw;
+    }
+
+    .about-section-container {
+        padding: 75px 60px;
+    }
+
+    .about-title_img {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .artist-img {
+        width: 40%;
+    }
+
+    .artist-about {
+        width: 40%;
+        max-width: 500px;
+    }
+
+    .artist-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .instagram-container {
+        margin-top: 75px;
+    }
+
+    .posts-container {
+        flex-direction: row;
+    }
+}

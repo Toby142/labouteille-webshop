@@ -1,4 +1,3 @@
-
 .big-category-container {
     height: 100vh;
     overflow: hidden;
@@ -6,12 +5,12 @@
 }
 
 .parallax {
-    height: 100%;
-    background-image: url("../../../../assets/dev-images/animals.png");
-    background-attachment: fixed;
-    background-size: cover;
+    height: 100vh;
+    background-image: url("../../../../assets/dev-images/dan-cristian-padure-KMnqIVVdA9c-unsplash.jpg");
+    background-size: cover; /* or background-size: contain; */
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: rgba(45, 43, 36, 0.564);
     background-blend-mode: overlay;
     color: white;
@@ -24,7 +23,6 @@
     top: 0;
     left: 0;
 }
-
 
 
 .text-container {
@@ -41,9 +39,11 @@
 .big-category-container h1 {
     font-size: 30px;
     margin-bottom: 5px;
+
 }
 
 .big-category-container p {
     text-decoration: underline;
     font-size: 12px;
+    cursor: pointer;
 }

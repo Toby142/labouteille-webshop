@@ -16,6 +16,9 @@ import { ContactSectionComponent } from './components/shared/contact-section/con
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ProductPageComponent } from './components/pages/product-page/product-page.component';
+import { ArtGalleryPageComponent } from './components/pages/art-gallery-page/art-gallery-page.component';
+import { ContactPageComponent } from './components/pages/contact-page/contact-page.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AboutSectionComponent,
     ContactSectionComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    ProductPageComponent,
+    ArtGalleryPageComponent,
+    ContactPageComponent
   ],
   imports: [
     BrowserModule,

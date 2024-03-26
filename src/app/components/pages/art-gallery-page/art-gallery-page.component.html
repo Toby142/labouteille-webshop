@@ -1,0 +1,40 @@
+<header>
+    <div class="parallax" [style.backgroundPositionY.px]="parallaxOffset"> 
+        <h1>LA BOUTEILLE <br> ART GALLERY</h1>
+    </div>
+</header>
+
+
+<div class="products-container">
+    <div class="gallery-about">
+        <h2>BEST ARTWORKS</h2>
+        <p>These are La Boutille's best artworks </p>
+    </div>
+
+    <div class="product-card" routerLink="/product">
+        <img src="../../../../assets/dev-images/3-champagne.jpeg" alt="">
+        <h2>Product name</h2>
+        <a class="product-link" routerLink="/explore-artwork">EXPLORE</a>
+    </div>
+    <div class="product-card" routerLink="/product">
+        <img src="../../../../assets/dev-images/woman.jpeg" alt="">
+        <h2>Product name</h2>
+        <a class="product-link" routerLink="/explore-artwork">EXPLORE</a>
+
+    </div>
+    <div class="product-card" routerLink="/product">
+        <img src="../../../../assets/dev-images/giraffe.png" alt="">
+        <h2>Product name</h2>
+        <a class="product-link" routerLink="/explore-artwork">EXPLORE</a>
+
+    </div>
+</div>
+
+<app-filler-section></app-filler-section>
+
+
+<app-categories-section></app-categories-section>
+
+<app-contact-section></app-contact-section>
+
+<app-footer></app-footer>

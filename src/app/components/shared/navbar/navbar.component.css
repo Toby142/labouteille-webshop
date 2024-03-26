@@ -35,10 +35,12 @@ nav.hidden {
 
 .nav-title {
     font-size: larger;
+    cursor: pointer;
 }
 
 .nav-menu-link {
     font-size: 12px;
+    cursor: pointer;
 }
 
 .navbar-links {
@@ -48,18 +50,19 @@ nav.hidden {
     position: fixed;
     background-color: white;
     width: 100%;
-    top: -500px;
+    top: -700px;
     left: 0;
     z-index: -1;
-    padding: 20px 30px;
+    padding: 20px;
     transition: top 0.5s ease-in-out;
 }
 
 .link {
     width: 100%;
-    padding: 10px 0;
+    margin-bottom: 5px;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .link img {
@@ -72,7 +75,7 @@ nav.hidden {
     text-decoration: none;
     padding: 10px 0;
     color: black;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
 }
   
 .navbar-links.expanded {
@@ -80,3 +83,16 @@ nav.hidden {
     top: 70px;
 }
   
+/* break for desktoop */ 
+@media screen and (min-width: 768px) {
+    /* navbarlinks exdpanded */
+    .navbar-links {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .link img {
+        height: 250px;
+    }
+}

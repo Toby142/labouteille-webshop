@@ -5,14 +5,22 @@
     </div>
 
     <div class="navbar-links" [ngClass]="{ 'expanded': isMenuOpen }">
-        <div class="link">
-            <img src="../../../../assets/dev-images/vodka-bottle.png" alt="">
+
+
+        <div class="link" routerLink="/home">
+            <img src="../../../../assets/dev-images/dan-cristian-padure-KMnqIVVdA9c-unsplash.jpg" alt="">
             <a routerLink="/home" routerLinkActive="active">Home</a>
         </div>
-        <div class="link">
-            <img src="../../../../assets/dev-images/vodka-bottle.png" alt="">
-            <a routerLink="/about" routerLinkActive="active">About</a>
+        <div class="link" routerLink="/art-gallery">
+            <img src="../../../../assets/dev-images/champagne-storeage.jpg" alt="">
+            <a routerLink="/art-gallery" routerLinkActive="active">La Bouteille art gallery</a>
         </div>
+
+        <div class="link" routerLink="/contact">
+            <img src="../../../../assets/dev-images/champagne-field.jpg" alt="">
+            <a  routerLinkActive="active">Contact</a>
+        </div>
+    
         <!-- Add more links as needed -->
     </div>
 

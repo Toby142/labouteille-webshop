@@ -24,3 +24,17 @@ header {
     /* zoom in a little */
     transform: scale(1.3);
 }
+
+/* break for desktop */
+@media (min-width: 768px) {
+    /* make the img in the center */
+    .header-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-text img {
+        /* make it 25 vw */
+        width: 25vw;
+    }
+}

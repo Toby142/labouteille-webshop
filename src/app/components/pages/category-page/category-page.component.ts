@@ -12,6 +12,11 @@ export class CategoryPageComponent {
   constructor() { }
 
   ngOnInit() {
+
+    setTimeout(() => {
+      window.scrollTo({ top: 350, behavior: 'smooth',  });
+    }, 500); // Delay by 500 milliseconds (0.5 seconds)
+
     if (window.location.pathname.split('/').length < 3) {
       window.location.href = '/home';
     } else {
